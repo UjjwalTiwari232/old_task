@@ -1,0 +1,36 @@
+#card{
+    border-top: 3px solid turquoise ;
+}
+#emailHelp ,#userHelp{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    color:#7fffd4;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+#exampleInputState{
+    text-align: end;
+    align-items: end;
+    display: flex;
+}
+#exampleCheck1{
+    accent-color: green;
+}
+
+.dashboard{
+    background-color:rgb(238, 236, 233);
+}
+.nav-link {
+    color: green;
+}
+
+.nav-item>a:hover {
+    color: white;
+}
+
+/*code to change background color*/
+.navbar-nav>.active>a {
+    border-bottom: 3px solid white;
+    color: green;
+}
